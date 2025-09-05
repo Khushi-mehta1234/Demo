@@ -8,7 +8,7 @@ import Login from "./components/Login.jsx";
 import Registration from "./components/Registration.jsx"; 
 import UserProfile from "./components/UserProfile.jsx";
 import Navbar from "./components/Navbar.jsx";
-import Country from "./components/country.jsx";
+import Country from "./components/Country.jsx";
 import Result from "./components/Result.jsx";
 
 function App() {
