@@ -11,10 +11,9 @@ const Data = {
     California: ["Los Angeles", "San Francisco"],
     Texas: ["Houston", "Dallas"],
   },
-  
 };
 
-const Country =() =>{
+const Country = () => {
   const [country, setCountry] = useState("");
   const [state, setState] = useState("");
   const [city, setCity] = useState("");
@@ -114,6 +113,6 @@ const Country =() =>{
       </div>
     </div>
   );
-}
+};
 
 export default Country;
