@@ -14,7 +14,7 @@ const Data = {
   
 };
 
-function Location() {
+const Country =() =>{
   const [country, setCountry] = useState("");
   const [state, setState] = useState("");
   const [city, setCity] = useState("");
@@ -116,4 +116,4 @@ function Location() {
   );
 }
 
-export default Location;
+export default Country;

@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import Location from "./components/country";
+import Country from "./components/country";
 import StudentData from "./components/studentData";
 import ForgotPassword from "./components/ForgotPassowrd.jsx";
 import LoginForm from "./components/LoginForm.jsx";
