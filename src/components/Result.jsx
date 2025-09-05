@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-const StudentData = () => {
+const Result = () => {
   const [students, setStudents] = useState([
     { id: 1, name: "abc", roll: "1", marks: { JAVA: 85, PHP: 70, JAVASCRIPT: 80 } },
     { id: 2, name: "def", roll: "2", marks: { JAVA: 95, PHP: 80, JAVASCRIPT: 50 } },
@@ -122,4 +122,4 @@ const StudentData = () => {
   );
 };
 
-export default StudentData;
+export default Result;

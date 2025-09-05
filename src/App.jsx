@@ -3,13 +3,13 @@ import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
-import StudentData from "./components/StudentData.jsx";
 import ForgotPassword from "./components/ForgotPassword.jsx";
 import LoginForm from "./components/LoginForm.jsx";
-import RegistrationForm from "./components/RegistaerationForm.jsx"; // fixed here
+import RegistrationForm from "./components/RegistaerationForm.jsx"; 
 import UserProfile from "./components/UserProfile.jsx";
 import Navbar from "./components/Navbar.jsx";
-import Country from "./components/Country.jsx";
+import Country from "./components/country.jsx";
+import Result from "./components/Result.jsx";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
       <Route path="/RegistrationForm" element={<RegistrationForm />} />
       <Route path="/ForgotPassword" element={<ForgotPassword />} />
       <Route path="/UserProfile" element={<UserProfile />} />
-      <Route path="/StudentData" element={<StudentData />} />
+      <Route path="/Result" element={<Result />} />
       <Route path="/Country" element={<Country />} />
     </Routes>
   );
