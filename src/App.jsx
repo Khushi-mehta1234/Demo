@@ -9,18 +9,18 @@ import LoginForm from "./components/LoginForm.jsx";
 import RegistrationForm from "./components/RegistrationForm.jsx";
 import UserProfile from "./components/UserProfile.jsx";
 import Navbar from "./components/Navbar.jsx";
-import Country from "./components/country.jsx";
+import Country from "./components/Country.jsx";
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<LoginForm />} />
-      <Route path="/navbar" element={<Navbar />} />
-      <Route path="/registration-form" element={<RegistrationForm />} />
-      <Route path="/forgot-password" element={<ForgotPassword />} />
-      <Route path="/user-profile" element={<UserProfile />} />
-      <Route path="/student-data" element={<StudentData />} />
-      <Route path='/country' element = {<Country/>}/>
+      <Route path="/Navbar" element={<Navbar />} />
+      <Route path="/RegistrationForm" element={<RegistrationForm />} />
+      <Route path="/ForgotPassword" element={<ForgotPassword />} />
+      <Route path="/UserProfile" element={<UserProfile />} />
+      <Route path="/StudentData" element={<StudentData />} />
+      <Route path= '/Country' element={<Country/>}/>
     </Routes>
   );
 }
