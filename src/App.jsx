@@ -19,7 +19,7 @@ function App() {
       <Route path="/registrationForm" element={<RegistrationForm />} />
       <Route path="/forgot-password" element={<ForgotPassword />} />
       <Route path="/user-profile" element={<UserProfile />} />
-      <Route path="/location" element={<Location />} />
+      <Route path="/country" element={<Country/>} />
       <Route path="/student-data" element={<StudentData />} />
     </Routes>
    
